@@ -1,0 +1,16 @@
+/* ::: BASE STYLES ::: */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', serif;
+}
+/* .:: The header ::. */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #2d3945;
+}
+/* ::: ID SELECTORS ::: */
+/*  ::: CLASS SELECTORS :::  */
+/*  ::: MEDIA QUERY :::  */
