@@ -5,12 +5,91 @@
 body {
     font-family: 'Merriweather', serif;
 }
-/* .:: The header ::. */
 header {
     display: flex;
-    align-items: center;
     background-color: #2d3945;
+    justify-content: center;
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #2d3945;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+legend {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 0.9rem;
+    color: #7a8896;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+input,
+select {
+    padding: 0.75rem 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #eff0f1;
+}    
+p {
+    font-size: 0.9rem;
+    color: #2d3945;
 }
 /* ::: ID SELECTORS ::: */
+#logo {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 7px 0 7px 0;
+}
+#intro {
+    text-align: center;
+    margin-top: 1.6rem;
+    margin-bottom: 10px;
+}
+#divider-1 {
+    border: 2.px solid #2d3945;
+    text-align: center;
+    margin: 0 0 2px 0;
+}
+#divider-2 {
+    border: 1px solid #2d3945;
+    margin: 0 0 2px 0;
+}
+#zip-code {
+    width: 40%;
+    margin-bottom: 2rem;
+}
+input[type="checkbox"] {
+    margin-right: 7px;
+}
 /*  ::: CLASS SELECTORS :::  */
+.marginalija {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #9da3a8;
+    padding: 0 25px 0 25px;
+    margin: 0px;
+    margin-bottom: 1.5rem;
+}
+.selection-options {
+    margin: 10px 0;
+}
+/*  ::: PSEUDO CLASSES :::  */
 /*  ::: MEDIA QUERY :::  */
+
+/*
+
+TO DO 
+• Ureditev focus state za input fielde
+• Ureditev lace holder text lokacije
+• Nadaljevanje od other topics dalje
+
+*/
