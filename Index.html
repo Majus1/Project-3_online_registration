@@ -19,40 +19,54 @@
         <form>            
             <h2 id="intro">Signup for our newsletter</h2>
             <p class="marginalija">Get the last news on how your code is doing right in your inbox</p>
-            <hr id="divider-2">
             <hr id="divider-1">
+            <hr id="divider-2">
 
             <legend>
                 <h2>Contact Information</h2>
-                
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="user-full-name" placeholder="Your full name is Required" required>
 
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="user-email" placeholder="Your email is Required" required>
+                <div class="input-option">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="user-full-name" placeholder="Your full name is Required" required>    
+                </div>
 
-                <label for="phone-number">Phone Number</label>
-                <input type="number" id="phone-number" name="user-phone-number" placeholder="Your phone Number">
+                <div class="input-option">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="user-email" placeholder="Your email is Required" required>
+                </div>
 
-                <label for="street-address">Street Address</label>
-                <input type="text" id="street-address" name="user-street-address" placeholder="Your street Address">
+                <div class="input-option">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" id="phone-number" name="user-phone-number" placeholder="Your phone Number">
+                </div>
 
-                <label for="city">City</label>
-                <input type="text" id="city" name="user-city" placeholder="Your city">
+                <div class="input-option">
+                    <label for="street-address">Street Address</label>
+                    <input type="text" id="street-address" name="user-street-address" placeholder="Your street Address">
+                </div>
 
-                <label for="state">State</label>
-                <select id="state" name="user-state" placeholder="Chose State">
-                    <option value="Podatek_1">Chose your state</option>
-                    <option value="Podatek_1">Podatek_2</option>
-                    <option value="Podatek_1">Podatek_3</option>
-                    <option value="Podatek_1">Podatek_4</option>
-                    <option value="Podatek_1">Podatek_5</option>
-                    <option value="Podatek_1">Podatek_6</option>
-                    <option value="Podatek_1">Podatek_7</option>
-                </select>
+                <div class="input-option">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="user-city" placeholder="Your City">
+                </div>
 
-                <label for="zip-code">Zip Code</label>
-                <input type="text" id="zip-code" name="user-zip-code" placeholder="Your zip">
+                <div class="input-option">
+                    <label for="state">State</label>
+                    <select id="state" name="user-state" placeholder="Chose State">
+                        <option default>Chose your state</option>
+                        <option value="Podatek_1">Podatek_2</option>
+                        <option value="Podatek_1">Podatek_3</option>
+                        <option value="Podatek_1">Podatek_4</option>
+                        <option value="Podatek_1">Podatek_5</option>
+                        <option value="Podatek_1">Podatek_6</option>
+                        <option value="Podatek_1">Podatek_7</option>
+                    </select>
+                </div>
+
+                <div class="input-option">
+                    <label for="zip-code">Zip Code</label>
+                    <input type="text" id="zip-code" name="user-zip-code" placeholder="Your zip">
+                </div>
 
             </legend>
 
