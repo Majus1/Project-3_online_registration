@@ -33,14 +33,23 @@ label {
 }
 input,
 select {
-    padding: 0.75rem 0;
     border: none;
     border-radius: 4px;
     background-color: #eff0f1;
+    margin: 0.3rem 0;
+    padding: 1rem 0.7rem;
 }    
 p {
     font-size: 0.9rem;
     color: #2d3945;
+}
+textarea {
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #eff0f1;
+    margin: .4rem 0 .7rem 0;
+    padding: 1rem 0.7rem;
 }
 /* ::: ID SELECTORS ::: */
 #logo {
@@ -70,6 +79,12 @@ p {
 input[type="checkbox"] {
     margin-right: 7px;
 }
+input[type="submit"] {
+    background-color: #4ebbb5;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
 /*  ::: CLASS SELECTORS :::  */
 .marginalija {
     font-size: 0.9rem;
@@ -82,14 +97,39 @@ input[type="checkbox"] {
 .selection-options {
     margin: 10px 0;
 }
+.copyright {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #7a8896;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
 /*  ::: PSEUDO CLASSES :::  */
+textarea:focus,
+select:focus,
+input:focus {
+    border: 2px solid #46698b;
+    border-radius: 4px;
+    outline: none;
+}
+/*  ::: PSEUDO ELEMENTS :::  */
+::placeholder {
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: right;
+    padding-right: 25px;
+    color: #7a8896;
+}
 /*  ::: MEDIA QUERY :::  */
+
 
 /*
 
 TO DO 
-• Ureditev focus state za input fielde
-• Ureditev lace holder text lokacije
-• Nadaljevanje od other topics dalje
+• Nadaljevanje Submit buttona
+• Copy roght by Maj
+• Change colors of design
+• Make brake points 
 
 */
